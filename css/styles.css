@@ -4024,6 +4024,14 @@ body.search-is-visible .s-header__search-inner {
     margin-bottom  : var(--vspace-1_5);
 }
 
+.hero__entry-sub-title {
+    font-size      : calc(var(--entry-title-size) * var(--text-multiplier) * 0.5);
+    line-height    : 1.158;
+    letter-spacing : -0.015em;
+    margin-top     : 0;
+    margin-bottom  : var(--vspace-1_5);
+}
+
 .hero__entry-title a {
     color : var(--color-text-dark);
 }
